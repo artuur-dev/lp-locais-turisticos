@@ -20,6 +20,10 @@ body {
   background-color: var(--background-primary);
   padding: 5em;
 }
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .titleAbove {
   color: var(--text-headline);
@@ -35,10 +39,16 @@ h1 {
   color: var(--text-primary);
 }
 
+#heroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #imgHero {
-  height: 660px;
   border-radius: 28px;
   margin-top: 40px;
+  object-fit: cover;
 }
 
 #heroSubtitle {
@@ -46,4 +56,31 @@ h1 {
   font-style: italic;
   color: var(--text-secondary);
   text-align: center;
+}
+
+img + p {
+  margin-top: 24px;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  color: var(--text-primary);
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#temploHaedong {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+}
+#goodForHistory {
+  color: var(--accent-blue);
+  font-weight: bold;
+  font-size: 16px;
 }
