@@ -73,14 +73,45 @@ h2 {
   margin-top: 2px;
   margin-bottom: 2px;
 }
-#temploHaedong {
+#temploHaedong,
+#templeBeomeoSa,
+#parqueYoungDusan {
   height: 350px;
   width: 100%;
   object-fit: cover;
   border-radius: 28px;
+  margin-top: 20px;
 }
 #goodForHistory {
   color: var(--accent-blue);
   font-weight: bold;
   font-size: 16px;
+}
+
+#orcamentoItem {
+  color: var(--accent-orange);
+  font-weight: bold;
+}
+
+#familiasItem {
+  color: var(--accent-pink);
+  font-weight: bold;
+}
+
+#casaisItem {
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+
+#vectorRocket {
+  vertical-align: middle;
+}
+
+hr {
+  border: none;
+  border-top: solid rgb(188, 188, 188) 2px;
 }
